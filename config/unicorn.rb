@@ -1,4 +1,4 @@
-root = "/opt/www/deploy_test/current"
+root = "/var/www/deploy_test/current"
 working_directory root
 pid "#{root}/tmp/pids/unicorn.pid"
 stderr_path "#{root}/log/unicorn.log"
