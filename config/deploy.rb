@@ -11,7 +11,7 @@ set :repo_url, 'git@github.com:mezbahalam/deploy_test.git'
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, '/opt/www/deploy_test'
 
-set user 'deploy'
+set :user, 'deploy'
 
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets}
 
