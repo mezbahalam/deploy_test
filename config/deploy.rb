@@ -15,7 +15,7 @@ set :user, 'mezbah'
 
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets}
 
-#ssh_options[:forward_agent] = true
+ssh_options[:forward_agent] = true
 
 
 # Default value for :scm is :git
