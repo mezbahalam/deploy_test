@@ -15,8 +15,8 @@ set :user, 'mezbah'
 
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets}
 
-ssh_options[:forward_agent] = true
 
+set :ssh_options, {:keys => ["#{ENV['HOME']}/.ssh/deploy_test.pem"] }
 
 # Default value for :scm is :git
 #set :scm, :git
